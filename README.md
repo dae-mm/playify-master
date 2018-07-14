@@ -1,6 +1,8 @@
 #Playify
 
-A simple spotify player and playlist built with React and Redux. 
+A simple spotify player and playlist editor built with React and Redux. 
+
+live app: 
 
 Run the app locally:
 
