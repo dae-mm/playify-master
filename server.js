@@ -1,4 +1,5 @@
 const express = require('express')
+const favicon = require('serve-favicon')
 
 import { matchRoutes } from 'react-router-config'
 import Routes from './src/routes'
@@ -6,6 +7,8 @@ import renderer from './src/helpers/renderer'
 import createStore from './src/helpers/serverStore'
 
 const app = express()
+
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 app.use(express.static('dist'))
 
