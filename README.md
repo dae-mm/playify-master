@@ -2,7 +2,7 @@
 
 A simple spotify player and playlist editor built with React and Redux. 
 
-live app: https://dae-mm.github.io/playify-master/
+live app: https://playify-v1.herokuapp.com/
 
 Run the app locally:
 
