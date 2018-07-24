@@ -18,7 +18,7 @@ const scopes = [
   'user-follow-modify'
 ]
 const client_id = '88030a9f3ef048c69609d9bb7a656198'
-const redirect_uri = 'http://localhost:8080/callback' // 'https://playify.herokuapp.com/app'
+const redirect_uri = 'https://playify-v1.herokuapp.com/callback' // 'https://playify.herokuapp.com/app'
 
 const url =
   'https://accounts.spotify.com/authorize?client_id=' +

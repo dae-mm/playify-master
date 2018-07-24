@@ -5530,7 +5530,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var scopes = ['user-read-private', 'playlist-read-private', 'playlist-read-collaborative', 'playlist-modify-public', 'playlist-modify-private', 'user-top-read', 'user-library-read', 'user-library-modify', 'user-follow-read', 'user-follow-modify'];
 var client_id = '88030a9f3ef048c69609d9bb7a656198';
-var redirect_uri = 'http://localhost:8080/callback'; // 'https://playify.herokuapp.com/app'
+var redirect_uri = 'https://playify-v1.herokuapp.com/callback'; // 'https://playify.herokuapp.com/app'
 
 var url = 'https://accounts.spotify.com/authorize?client_id=' + client_id + '&redirect_uri=' + encodeURIComponent(redirect_uri) + '&scope=' + encodeURIComponent(scopes.join(' ')) + '&response_type=token';
 
