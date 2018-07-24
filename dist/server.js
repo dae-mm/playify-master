@@ -4142,7 +4142,7 @@ module.exports = require("redux");
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(__dirname) {
+
 
 var _reactRouterConfig = __webpack_require__(11);
 
@@ -4165,7 +4165,7 @@ var favicon = __webpack_require__(73);
 
 var app = express();
 
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+// app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 app.use(express.static('dist'));
 
@@ -4202,7 +4202,6 @@ var port = process.env.PORT || 8080;
 app.listen(port, function () {
   console.log('Listning on port 8080');
 });
-/* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
 /* 26 */
